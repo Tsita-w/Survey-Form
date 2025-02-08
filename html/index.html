@@ -1,0 +1,46 @@
+<DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta chars="UTF-8">
+        <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+
+        <title>Survey Form</title>
+        <link href="styles.css" rel="stylessheet">
+      </head>
+      <body>
+        <h1 id="title">SURVEY FORM</h1>
+        <p id="description">please fill out this survey to help us to improve our services</p>
+
+        <form id="survey-form">
+          <label id="name-label" for="name">Name: <input id="name" type="text" placeholder="Enter your name" required/></label>
+          <label id="email-label" for="email">Email: <input id="email" type="email" placeholder="Enter your email" required></label>
+
+          <label id="number-label" for="number">Age: <input id="number" type="number" min="16"  max="60" placeholder="Enter your age"></label>
+
+          <label for="dropdown">select an option:
+            <select id="dropdown" >
+              <option value="option1">option1</option>
+              <option value="option2">option2</option>
+            </select> </label>
+            <p>Choose one: <input type="radio" name="radio-group" value="choise1">Choise1
+            <input type="radio" name="radio-group" value="choise2">Choise2 </p>
+            <p>Select all that apply:
+              <input type="checkbox" value="checkbox1">Checkbox1
+              <input type="checkbox" value="choise2">Checkbox2 </p>
+              <label for="comments">Additional comments:
+                <textarea id="comments" placeholder="Enter your comments"></textarea>
+                </label>
+                <button id="submit" type="submit">Submit</button>
+
+
+
+
+
+
+
+
+
+
+        </form>
+      </body>
+    </html>

@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #3a1c71, #d76d77);
+    color: #f8f9fa;
+    text-align: center;
+    margin: 20px;
+}
+#survey-form {
+    background: linear-gradient(135deg, #2d2f36, #3c4047);
+    padding: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+label, p {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #3c3f51;
+    color: white;
+    font-size: 14px;
+}
+input::placeholder, textarea::placeholder {
+    color: #bbb;
+}
+button { background-color: #ff7b54; font-weight: bold; box-shadow: 0px 4px 6px rgba(255, 123, 84, 0.5);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s;
+}
+button:hover { background-color: #ff4500; box-shadow: 0px 6px 10px rgba(255, 69, 0, 0.6);
+}
